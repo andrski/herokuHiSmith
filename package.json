@@ -1,0 +1,29 @@
+{
+  "name": "heroku_hi_smith",
+  "version": "1.0.0",
+  "description": "full stack",
+  "main": "App.js",
+  "scripts": {
+    "server": "nodemon App.js",
+    "start": "node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrski/herokuHiSmith.git"
+  },
+  "author": "andrei <andrski2009@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrski/herokuHiSmith/issues"
+  },
+  "homepage": "https://github.com/andrski/herokuHiSmith#readme",
+  "dependencies": {
+    "@heroku/buildpack-registry": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
